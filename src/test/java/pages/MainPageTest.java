@@ -1,4 +1,4 @@
-package task1;
+package pages;
 
 import org.junit.Test;
 
