@@ -9,20 +9,20 @@ public class MainPage {
         MainPage.driver = driver;
     }
 
-    private static WebDriver driver;
+    public static WebDriver driver;
 
     /**
      * Локаторы элементов главной страницы Nexign
      */
 
     //Кнопка "Продукты и решения" в шапке
-    private final By productsAndSolutionsButton = By.xpath("//*[@id=\"block-menyusverkhunewru\"]/ul/li[1]/span");
+    private final By productsAndSolutionsButton = By.xpath(".//*[@class='menu-item menu-item--expanded']/span[text()='Продукты и решения']");
 
     // Кнопка "Инструменты для ИТ-команд" внутри шапки
-    private final By toolsForITTeamsButton = By.xpath("//*[@id=\"block-menyusverkhunewru\"]/ul/li[1]/ul/li[5]/span");
+    private final By toolsForITTeamsButton = By.xpath(".//*[@class='menu-item menu-item--expanded menu-double-column']/span[text()='Инструменты для ИТ-команд']");
 
     // Кнопка "Nexign Nord"
-    private final By nexignNordButton = By.xpath("//*[@id=\"block-menyusverkhunewru\"]/ul/li[1]/ul/li[5]/ul/li/ul[1]/li[2]/a");
+    private final By nexignNordButton = By.xpath(".//*[@class='menu-item']/*[text()='Nexign Nord']");
 
 
 

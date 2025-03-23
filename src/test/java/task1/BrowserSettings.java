@@ -1,4 +1,4 @@
-package pages;
+package task1;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 
 public class BrowserSettings {
-    WebDriver driver;
+    public WebDriver driver;
 
     @Before
     public void setUp() {

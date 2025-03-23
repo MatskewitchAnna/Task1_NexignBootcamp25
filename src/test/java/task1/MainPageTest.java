@@ -1,6 +1,7 @@
-package pages;
+package task1;
 
 import org.junit.Test;
+import pages.MainPage;
 
 public class MainPageTest extends BrowserSettings {
     @Test
